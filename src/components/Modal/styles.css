@@ -1,0 +1,47 @@
+.modalHeading {
+    font-size: 24px;
+    margin-bottom: 0.8rem;
+}
+.modalTxt {
+    font-size: 18px;
+    color: #7e7e7e;
+    margin-bottom: 1.5rem;
+}
+.inputTxt {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+.modalInput {
+    margin: 0.8rem 0 1.5rem 0;
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: 2px solid #a1a1a166;
+    color: #7e7e7e;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+*:focus {
+    outline: none;
+}
+.modalButton {
+    background-color: transparent;
+    border: none;
+    color: #d60005;
+    font-size: 18px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
